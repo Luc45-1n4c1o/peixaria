@@ -51,7 +51,6 @@
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="https://www.facebook.com/josimarpescados" target="_blank">Facebook</a>
-                <a class="dropdown-item" href="#">Twitter</a>
                 <a class="dropdown-item" href="https://www.instagram.com/josimar.pescados/" target="_blank">Instagram</a>
               </div>
             </li>
@@ -255,6 +254,7 @@
       <div class="row justify-content-center mb-5">
         <div class="col-sm-12 col-md-10 col-lg-8">
           <form>
+
             <div class="form-row">
               <div class="form-group col-sm-6">
                 <label for="inputNome">Seu nome</label>
@@ -265,47 +265,39 @@
                 <input type="text" class="form-control" id="inputSobrenome" placeholder="Digite ele aqui...">
               </div>
             </div>
+
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                  <label for="inputNome">E-mail</label>
+                  <input type="text" class="form-control" id="inputNome" placeholder="Digite ele aqui...">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="inputSobrenome">Telefone</label>
+                  <input type="text" class="form-control" id="inputSobrenome" placeholder="Digite ele aqui...">
+                </div>
+            </div>
+
             <div class="form-row">
               <div class="form-group col-sm-12">
                 <label for="inputEnd">Seu endereço</label>
-                <input type="text" class="form-control" id="inputEnd" placeholder="Digite ele aqui..."> 
+                <input type="text" class="form-control" id="inputEnd" placeholder="Ex.: Rua, número, cidade-UF, CEP"> 
               </div>
             </div>
-            <div class="form-row">
-              <div class="form-group col-sm-6">
-                <label for="inputCidade">Sua cidade</label>
-                <input type="text" class="form-control" id="inputCidade" placeholder="Digite ela aqui...">
-              </div>
-              <div class="form-group col-sm-4">
-                <label for="inputUF">Seu estado</label>
-                <select id="inputUF" class="form-control">
-                  <option selected>Escolha...</option>
-                  <option>Espirito Santo</option>
-                  <option>Minas Gerais</option>
-                  <option>Rio de Janeiro</option>
-                  <option>São Paulo</option>
-                </select>
-              </div>
-              <div class="form-group col-sm-2">
-                <label for="inputCEP">Seu CEP</label>
-                <input type="text" id="inputCEP" class="form-control">
-              </div>
-            </div>
+
             <div class="form-row">
               <div class="form-group col-sm-12">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input mt-2" type="checkbox">Desejo receber novidades por e-mail
-                  </label>
-                </div>
+                <label for="exampleFormControlTextarea1">Sua mensagem:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
+
             <div class="form-row">
               <div class="form-group col-sm-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Duis in finibus nibh" data-content="Vivamus malesuada dictum eleifend. In at dapibus nisl, nec lacinia augue.">Ajuda</a>
+                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                <input type="reset" value="Limpar os dados" class="btn btn-secondary">
               </div>
             </div>
+
           </form>
         </div>
       </div>
@@ -330,7 +322,6 @@
           <h3>Nossas redes sociais</h3>
           <div class="btn-group-vertical btn-block btn-group-lg" role="group">
             <a href="https://www.facebook.com/josimarpescados" target="_blank" class="btn btn-outline-primary"><i class="fab fa-facebook-square mr-1"></i>Facebook</a>
-            <!--<a href="#" class="btn btn-outline-info"><i class="fab fa-twitter-square mr-1"></i>Twitter</a>-->
             <a href="https://www.instagram.com/josimar.pescados/" target="_blank" class="btn btn-outline-warning"><i class="fab fa-instagram mr-1"></i>Instagram</a>
           </div>
         </div>
