@@ -5,3 +5,17 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.carousel-item .img-version-mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item .img-version-desktop {
+    display: none !important;
+  }
+
+  .carousel-item .img-version-mobile {
+    display: block !important;
+  }
+}
