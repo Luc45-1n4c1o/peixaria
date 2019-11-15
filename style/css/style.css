@@ -19,3 +19,13 @@
     display: block !important;
   }
 }
+
+.card-edit-myself {
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .card-edit-myself {
+    margin-bottom: 1.2em !important;
+  }
+}
