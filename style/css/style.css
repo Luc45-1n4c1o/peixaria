@@ -29,3 +29,11 @@
     margin-bottom: 1.2em !important;
   }
 }
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+.title-history {
+  margin-top: 1rem;
+}
